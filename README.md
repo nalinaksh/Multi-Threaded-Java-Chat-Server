@@ -3,11 +3,11 @@ Java implementation of a multithreaded chat server with shared whiteboard
 
 File Description:
 
-ChatMessage.java : Specifies the format of chat messages exchanged between Client <-> Server
-ChatMessage2.java: Extends ChatMessage class, describes functionality related to shared whiteboard
-ChatServer.java  : Implements multi-threaded chat server. Communication between various clients happen via the chat server
-Client.java      : Implements the client and the GUI with connet/disconnect buttons, List with active clients, Text Area, Message Area and shared whiteboard
-SimplePaint.java : Implements shared whiteboard related functionality
+- ChatMessage.java : Specifies the format of chat messages exchanged between Client <-> Server
+- ChatMessage2.java: Extends ChatMessage class, describes functionality related to shared whiteboard
+- ChatServer.java  : Implements multi-threaded chat server. Communication between various clients happen via the chat server
+- Client.java      : Implements the client and the GUI with connet/disconnect buttons, List with active clients, Text Area, Message Area and shared whiteboard
+- SimplePaint.java : Implements shared whiteboard related functionality
 
 Usage:
 - Compile the code: javac *.java
